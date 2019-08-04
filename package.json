@@ -1,0 +1,33 @@
+{
+  "name": "swagger2-to-postman-sample",
+  "version": "1.0.0",
+  "description": "A script to convert swagger 2.0 JSONs to Postman Collection by using swagger2-to-postman",
+  "main": "cli.js",
+  "dependencies": {
+    "jsface": "^2.2.0",
+    "uuid": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developer-kikikaikai/swagger2-to-postman-sample.git"
+  },
+  "keywords": [
+    "swagger",
+    "postman",
+    "newman",
+    "swagger2-to-postman"
+  ],
+  "author": "developer-kikikaikai <kikikaikaikai@gmail.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/developer-kikikaikai/swagger2-to-postman-sample/issues"
+  },
+  "homepage": "https://github.com/developer-kikikaikai/swagger2-to-postman-sample",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "jscs": "^2.1.0",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5",
+    "swagger2-to-postman": "^1.1.9"
+  }
+}
